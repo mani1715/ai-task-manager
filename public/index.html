@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Task Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Optional: allow local scripts -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧠 AI Task Generator</h1>
+      <p>Enter a topic to get 5 creative tasks:</p>
+      <input type="text" id="topicInput" placeholder="e.g. Climate Change" />
+      <button id="generateBtn">Generate Tasks</button>
+      <div id="loading" class="hidden">✨ Generating tasks...</div>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
